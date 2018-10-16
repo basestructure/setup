@@ -1,4 +1,4 @@
-/* MODEL | SETUP | STYLE - 2018-10-15 5:25 PM */
+/* MODEL | SETUP | STYLE - 2018-10-15 8:40 PM */
 /*
 	Theme Name: SETUP
 	Theme URI: https://setup.smartwebpackage.com
@@ -174,7 +174,7 @@ textarea {
 /* SETUP | VARIABLES | 262_SETUPBASIC | WIDTH-RANGE - 2018-06-18 */
 /* SETUP | VARIABLES | 261_SETUPBASIC | RESPONSIVE-RANGE - 2018-06-08 */
 /* SETUP | VARIABLES | 260_SETUPBASIC | FONTFAMILY - 2018-04-20 */
-/* SETUP | VARIABLES | 261_SETUPBASIC | FONTSIZE - 2018-06-05 */
+/* SETUP | VARIABLES | 261_SETUP | FONTSIZE - 2018-10-15 */
 /* SETUP | VARIABLES | 260_SETUPBASIC | FONTWEIGHT - 2018-05-24 */
 /* SETUP | VARIABLES | 260_SETUPBASIC | LINEHEIGHT - 2018-04-20 */
 /* SETUP | VARIABLES | 260_SETUPBASIC | LETTERSPACING - 2018-04-20 */
@@ -4055,7 +4055,7 @@ img.size-seveneights, .percent-seveneights {
 
 /* SETUP | GUI | 263_SETUPBASIC | MAINSIDE - 2018-06-24 */
 /* SETUP | LAYOUT | 262_SETUPBASIC | STRUCTURE - 2018-06-20 */
-/* SETUP | LAYOUT | 263_SETUPBASIC_GRID | HEADER - 2018-09-24 */
+/* SETUP | HEADER | 2611_SETUP_GRID | HEADER - 2018-10-15 */
 .site-header {
   grid-area: header;
   display: grid;
@@ -4067,8 +4067,8 @@ img.size-seveneights, .percent-seveneights {
   padding: 1rem; }
   @media only screen and (min-width: 64rem) {
     .site-header {
-      grid-template-columns: 1fr minmax(0, 48rem) 1fr;
-      -ms-grid-columns: 1fr minmax(0, 48rem) 1fr; } }
+      grid-template-columns: 1fr auto 1fr;
+      -ms-grid-columns: 1fr auto 1fr; } }
 
 .site-header > .wrap {
   grid-area: headerwrap;
@@ -4096,14 +4096,11 @@ img.size-seveneights, .percent-seveneights {
   grid-template-rows: auto;
   grid-template-areas: "sitetitle" "sitedescription";
   grid-column: 1;
-  -ms-grid-column: 1;
-  margin-bottom: 1rem; }
+  -ms-grid-column: 1; }
   @media only screen and (min-width: 64rem) {
     .title-area {
       grid-column: 1;
-      -ms-grid-column: 1;
-      margin-right: 1rem;
-      margin-bottom: 0; } }
+      -ms-grid-column: 1; } }
 
 .header-widget-area {
   grid-area: headerwidgetarea; }
@@ -4114,9 +4111,11 @@ img.size-seveneights, .percent-seveneights {
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-template-areas: "sitetitlelink";
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: 500;
-  line-height: 1; }
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 0; }
 
 .site-title a {
   grid-area: sitetitlelink; }
@@ -4128,17 +4127,16 @@ img.size-seveneights, .percent-seveneights {
   margin-bottom: 0; }
 
 .header-image .site-title a {
-  width: 200px;
-  height: 50px;
   display: block;
   color: transparent;
   background-size: contain !important; }
 
 .site-description {
   grid-area: sitedescription;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1;
+  text-align: center;
   margin-bottom: 0; }
 
 .site-header .nav-primary {
@@ -4149,7 +4147,7 @@ img.size-seveneights, .percent-seveneights {
       grid-column: 2;
       -ms-grid-column: 2; } }
 
-/* SETUP | LAYOUT | 263_SETUPBASIC_GRID | INNER - 2018-09-10 */
+/* SETUP | LAYOUT | 2611_SETUP_GRID | INNER - 2018-10-15 */
 .site-inner {
   display: grid;
   grid-template-columns: 1fr;
@@ -4171,7 +4169,7 @@ img.size-seveneights, .percent-seveneights {
       grid-column: 2;
       -ms-grid-column: 2; } }
 
-/* SETUP | LAYOUT | 263_SETUPBASIC_GRID | FOOTER - 2018-09-12 */
+/* SETUP | FOOTER | 2611_SETUP_GRID | FOOTER - 2018-10-15 */
 .site-footer {
   display: grid;
   grid-template-columns: 1fr;
@@ -4179,11 +4177,11 @@ img.size-seveneights, .percent-seveneights {
   display: -ms-grid;
   -ms-grid-columns: 1fr;
   -ms-grid-rows: auto;
-  padding: 0.5rem 1rem; }
+  padding: 1rem; }
   @media only screen and (min-width: 64rem) {
     .site-footer {
-      grid-template-columns: 1fr minmax(0, 48rem) 1fr;
-      -ms-grid-columns: 1fr minmax(0, 48rem) 1fr; } }
+      grid-template-columns: 1fr auto 1fr;
+      -ms-grid-columns: 1fr auto 1fr; } }
 
 .site-footer > .wrap {
   grid-column: 1;
@@ -4203,8 +4201,8 @@ img.size-seveneights, .percent-seveneights {
   padding: 1rem; }
   @media only screen and (min-width: 64rem) {
     .footer-widgets {
-      grid-template-columns: 1fr minmax(0, 48rem) 1fr;
-      -ms-grid-columns: 1fr minmax(0, 48rem) 1fr; } }
+      grid-template-columns: 1fr auto 1fr;
+      -ms-grid-columns: 1fr auto 1fr; } }
 
 .footer-widgets > .wrap {
   grid-column: 1;
@@ -4224,8 +4222,8 @@ img.size-seveneights, .percent-seveneights {
   padding: 1rem; }
   @media only screen and (min-width: 64rem) {
     .footer-menu {
-      grid-template-columns: 1fr minmax(0, 48rem) 1fr;
-      -ms-grid-columns: 1fr minmax(0, 48rem) 1fr; } }
+      grid-template-columns: 1fr auto 1fr;
+      -ms-grid-columns: 1fr auto 1fr; } }
 
 .footer-menu > .wrap {
   grid-column: 1;
@@ -4268,7 +4266,7 @@ img.size-seveneights, .percent-seveneights {
   letter-spacing: 0.25rem;
   margin-bottom: 1rem; }
 
-/* SETUP | LAYOUT | 263_SETUPBASIC_GRID | CREDIT - 2018-09-10 */
+/* SETUP | CREDIT | 2611_SETUP_GRID | CREDIT - 2018-10-15 */
 .credit {
   display: grid;
   grid-template-columns: 1fr;
@@ -4278,11 +4276,13 @@ img.size-seveneights, .percent-seveneights {
   -ms-grid-rows: auto; }
   @media only screen and (min-width: 64rem) {
     .credit {
-      grid-template-columns: 1fr auto;
-      -ms-grid-columns: 1fr auto; } }
+      grid-template-columns: 1fr auto 1fr;
+      -ms-grid-columns: 1fr auto 1fr; } }
 
 .sitefor {
   grid-column: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
   -ms-grid-column: 1;
   color: #808080;
   font-size: 0.875rem;
@@ -4290,20 +4290,30 @@ img.size-seveneights, .percent-seveneights {
   display: block; }
   @media only screen and (min-width: 64rem) {
     .sitefor {
-      grid-column: 1;
-      -ms-grid-column: 1; } }
+      grid-column: 2;
+      grid-row: 1;
+      -ms-grid-column: 2;
+      -ms-grid-row: 1; } }
+
+.credit-copyright {
+  text-align: center; }
 
 .credit-designby {
-  font-size: 0.625rem; }
+  font-size: 0.625rem;
+  text-align: center; }
 
 .siteby {
   grid-column: 1;
+  grid-row: 2;
   -ms-grid-column: 1;
+  -ms-grid-row: 2;
   margin-top: 1rem; }
   @media only screen and (min-width: 64rem) {
     .siteby {
       grid-column: 2;
+      grid-row: 2;
       -ms-grid-column: 2;
+      -ms-grid-row: 2;
       margin-top: 0; } }
 
 .siteby a {
@@ -4317,7 +4327,8 @@ img.size-seveneights, .percent-seveneights {
   display: block;
   overflow: hidden;
   text-decoration: none;
-  text-indent: -9999px; }
+  text-indent: -9999px;
+  margin: 1rem auto 0; }
 
 .siteby a:hover {
   text-decoration: none; }

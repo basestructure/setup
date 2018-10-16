@@ -147,9 +147,6 @@ function setupbasic_footer_menu() {
 // Remove the header right widget area
 unregister_sidebar( 'header-right' );
 
-// Remove the site description
-remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
-
 // Reposition the primary navigation menu.
 remove_action( 'genesis_after_header', 'genesis_do_nav' );
 add_action( 'genesis_header', 'genesis_do_nav', 11 );

@@ -1,4 +1,4 @@
-/* MODEL | SETUP | STYLE - 2018-10-15 5:25 PM */
+/* MODEL | SETUP | STYLE - 2018-10-15 8:40 PM */
 // 2.6.1.1
 // MODEL | SETUP-BASIC | STYLE - 2018-09-11 9:58 PM
 
@@ -22,9 +22,9 @@
 	@import 	"variables/262_setupbasic/width-range";
 	@import 	"variables/262_setupbasic/responsive-range";
 
-// -------------------------------------------------------------------- TYPOGRAPHY | VARIABLES | 2018-07-06
+// -------------------------------------------------------------------- TYPOGRAPHY | VARIABLES | 2018-10-15
 	@import 	"variables/260_setupbasic/fontfamily";
-	@import 	"variables/261_setupbasic/fontsize";
+@import 	"variables/2611_setup/fontsize";
 	@import 	"variables/260_setupbasic/fontweight";
 	@import 	"variables/260_setupbasic/lineheight";
 	@import 	"variables/260_setupbasic/letterspacing";
@@ -135,20 +135,20 @@
 // -------------------------------------------------------------------- STRUCTURE | LAYOUT | 2018-06-20
 	@import 	"layout/262_setupbasic/structure";
 
-// -------------------------------------------------------------------- HEADER | LAYOUT | 2018-09-10
-	@import 	"layout/263_setupbasic_grid/header";
+// -------------------------------------------------------------------- HEADER | 2018-10-15
+@import 	"header/2611_setup_grid/header";
 
-// -------------------------------------------------------------------- INNER | LAYOUT | 2018-09-10
-	@import 	"layout/263_setupbasic_grid/inner";
+// -------------------------------------------------------------------- INNER | 2018-10-15
+@import 	"inner/2611_setup_grid/inner";
 
-// -------------------------------------------------------------------- FOOTER | LAYOUT | 2018-09-10
-	@import 	"layout/263_setupbasic_grid/footer";
+// -------------------------------------------------------------------- FOOTER | 2018-10-15
+@import 	"footer/2611_setup_grid/footer";
 
 // -------------------------------------------------------------------- WIDGET | LAYOUT | 2018-06-28
 	@import 	"layout/262_setupbasic/widget";
 
-// -------------------------------------------------------------------- CREDIT | LAYOUT | 2018-09-10
-	@import 	"layout/263_setupbasic_grid/credit";
+// -------------------------------------------------------------------- CREDIT | 2018-10-15
+@import 	"credit/2611_setup_grid/credit";
 
 // -------------------------------------------------------------------- LAYOUT | STRUCTURE | 2018-06-20
 	@import 	"layout/262_setupbasic/full";
