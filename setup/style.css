@@ -1,7 +1,7 @@
-/* MODEL | SETUP | STYLE - 2018-10-15 8:40 PM */
+/* MODEL | SETUP-LOGOMENU | STYLE - 2018-10-16 3:44 PM */
 /*
-	Theme Name: SETUP
-	Theme URI: https://setup.smartwebpackage.com
+	Theme Name: SETUP-LOGOMENU
+	Theme URI: https://setup.smartwebpackage.com/setup-logomenu
 	Description: Site prototype for SmartWebPackage.com
 	Author: Mark Corpuz
 	Author URI: http://markcorpuz.com/
@@ -4055,7 +4055,7 @@ img.size-seveneights, .percent-seveneights {
 
 /* SETUP | GUI | 263_SETUPBASIC | MAINSIDE - 2018-06-24 */
 /* SETUP | LAYOUT | 262_SETUPBASIC | STRUCTURE - 2018-06-20 */
-/* SETUP | HEADER | 2611_SETUP_GRID | HEADER - 2018-10-15 */
+/* SETUP | HEADER | 2611_SETUP_GRID | HEADER-LOGOMENU - 2018-10-16 */
 .site-header {
   grid-area: header;
   display: grid;
@@ -4067,8 +4067,8 @@ img.size-seveneights, .percent-seveneights {
   padding: 1rem; }
   @media only screen and (min-width: 64rem) {
     .site-header {
-      grid-template-columns: 1fr auto 1fr;
-      -ms-grid-columns: 1fr auto 1fr; } }
+      grid-template-columns: 1fr 100% 1fr;
+      -ms-grid-columns: 1fr 100% 1fr; } }
 
 .site-header > .wrap {
   grid-area: headerwrap;
@@ -4086,8 +4086,10 @@ img.size-seveneights, .percent-seveneights {
       -ms-grid-column: 2; } }
   @media only screen and (min-width: 64rem) {
     .site-header > .wrap {
-      grid-template-columns: auto 1fr;
-      -ms-grid-columns: auto 1fr; } }
+      grid-template-columns: auto 1fr auto;
+      grid-template-rows: 1fr auto 1fr;
+      -ms-grid-columns: auto 1fr auto;
+      -ms-grid-rows: 1fr auto 1fr; } }
 
 .title-area {
   grid-area: titlearea;
@@ -4096,11 +4098,15 @@ img.size-seveneights, .percent-seveneights {
   grid-template-rows: auto;
   grid-template-areas: "sitetitle" "sitedescription";
   grid-column: 1;
-  -ms-grid-column: 1; }
+  grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-row: 2; }
   @media only screen and (min-width: 64rem) {
     .title-area {
       grid-column: 1;
-      -ms-grid-column: 1; } }
+      grid-row: 2;
+      -ms-grid-column: 1;
+      -ms-grid-row: 2; } }
 
 .header-widget-area {
   grid-area: headerwidgetarea; }
@@ -4127,6 +4133,8 @@ img.size-seveneights, .percent-seveneights {
   margin-bottom: 0; }
 
 .header-image .site-title a {
+  width: 200px;
+  height: 50px;
   display: block;
   color: transparent;
   background-size: contain !important; }
@@ -4141,11 +4149,17 @@ img.size-seveneights, .percent-seveneights {
 
 .site-header .nav-primary {
   grid-column: 1;
-  -ms-grid-column: 1; }
+  grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-row: 1;
+  margin-bottom: 1rem; }
   @media only screen and (min-width: 64rem) {
     .site-header .nav-primary {
-      grid-column: 2;
-      -ms-grid-column: 2; } }
+      grid-column: 3;
+      grid-row: 2;
+      -ms-grid-column: 3;
+      -ms-grid-row: 2;
+      margin-bottom: 0; } }
 
 /* SETUP | LAYOUT | 2611_SETUP_GRID | INNER - 2018-10-15 */
 .site-inner {
@@ -4266,7 +4280,7 @@ img.size-seveneights, .percent-seveneights {
   letter-spacing: 0.25rem;
   margin-bottom: 1rem; }
 
-/* SETUP | CREDIT | 2611_SETUP_GRID | CREDIT - 2018-10-15 */
+/* SETUP | CREDIT | 2611_SETUP_GRID | CREDIT - 2018-10-16 */
 .credit {
   display: grid;
   grid-template-columns: 1fr;
@@ -4313,8 +4327,7 @@ img.size-seveneights, .percent-seveneights {
       grid-column: 2;
       grid-row: 2;
       -ms-grid-column: 2;
-      -ms-grid-row: 2;
-      margin-top: 0; } }
+      -ms-grid-row: 2; } }
 
 .siteby a {
   background-image: url("https://smarterwebpackages.com/brand/smarterwebpackages-240x60.png");
@@ -4328,7 +4341,8 @@ img.size-seveneights, .percent-seveneights {
   overflow: hidden;
   text-decoration: none;
   text-indent: -9999px;
-  margin: 1rem auto 0; }
+  margin-right: auto;
+  margin-left: auto; }
 
 .siteby a:hover {
   text-decoration: none; }
@@ -4999,25 +5013,6 @@ img.size-seveneights, .percent-seveneights {
 .guide-box.vertical.sub {
   border-top: 1px solid #ef989d;
   border-bottom: 1px solid #ef989d; }
-
-/* SETUP | GUIDE | 260_GUIDE | NAV - 2018-04-29 */
-.nav-primary {
-  background-color: #dcbaff; }
-
-.nav-primary > .wrap {
-  background-color: #e3c8ff; }
-
-.nav-secondary {
-  background-color: #dcbaff; }
-
-.nav-secondary > .wrap {
-  background-color: #e3c8ff; }
-
-.nav-footer {
-  background-color: #dcbaff; }
-
-.nav-footer > .wrap, #mega-menu-wrap-footer.mega-menu-wrap {
-  background-color: #e3c8ff; }
 
 /* SETUP | GRID | 254_SETUPBASIC | GUIDE - 2018-04-09 */
 .grid-full > div, .grid-half > div, .grid-third > div, .grid-fourth > div, .grid-fifth > div, .grid-sixth > div, .grid-eight > div {

@@ -1,9 +1,9 @@
 <?php
 /**
- * SETUP
+ * SETUP-LOGOMENU
  * This file adds functions to the SETUP Theme.
  *
- * @package SETUP
+ * @package SETUP-LOGOMENU
  * @author  Mark Corpuz
  * @license GPL-2.0+
  * @link    http://markcorpuz.com/
@@ -40,8 +40,8 @@ include_once( get_stylesheet_directory() . '/lib/woocommerce/woocommerce-output.
 include_once( get_stylesheet_directory() . '/lib/woocommerce/woocommerce-notice.php' );
 
 //* Child theme (do not remove)
-define( 'CHILD_THEME_NAME', 'SETUP' );
-define( 'CHILD_THEME_URL', 'https://setup.smartwebpackage.com' );
+define( 'CHILD_THEME_NAME', 'SETUP-LOGOMENU' );
+define( 'CHILD_THEME_URL', 'https://setup.smartwebpackage.com/setup-logomenu' );
 define( 'CHILD_THEME_VERSION', '2.6.1.1' );
 
 
@@ -146,6 +146,9 @@ function setupbasic_footer_menu() {
 
 // Remove the header right widget area
 unregister_sidebar( 'header-right' );
+
+// Remove the site description
+remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
 
 // Reposition the primary navigation menu.
 remove_action( 'genesis_after_header', 'genesis_do_nav' );
