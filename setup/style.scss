@@ -1,0 +1,246 @@
+/* MODEL | SETUP | STYLE - 2018-10-15 5:25 PM */
+// 2.6.1.1
+// MODEL | SETUP-BASIC | STYLE - 2018-09-11 9:58 PM
+
+// THEME
+@import 	"themeinfo";
+
+// NORMALIZE
+@import 	"wp/normalize";
+
+// BOURBON
+@import 	"bourbon";
+@import 	"neat";
+@import 	"grid/263_setupbasic_grid/neat";
+
+// -------------------------------------------------------------------- WIDTH | VARIABLES | 2018-06-20
+	@import 	"variables/261_setupbasic/width-space";
+	@import 	"variables/260_setupbasic/width-grid";
+	@import 	"variables/260_setupbasic/width-line";
+	@import 	"variables/260_setupbasic/width-media";
+	@import 	"variables/262_setupbasic/width-layout";
+	@import 	"variables/262_setupbasic/width-range";
+	@import 	"variables/262_setupbasic/responsive-range";
+
+// -------------------------------------------------------------------- TYPOGRAPHY | VARIABLES | 2018-07-06
+	@import 	"variables/260_setupbasic/fontfamily";
+	@import 	"variables/261_setupbasic/fontsize";
+	@import 	"variables/260_setupbasic/fontweight";
+	@import 	"variables/260_setupbasic/lineheight";
+	@import 	"variables/260_setupbasic/letterspacing";
+	@import 	"variables/262_setupbasic/color";
+
+// -------------------------------------------------------------------- LAYOUT | BODY | 2018-06-20
+	@import 	"layout/262_setupbasic/body";
+
+// -------------------------------------------------------------------- CONTENT | 2018-07-17
+	@import 	"content/262_setupbasic/link";
+			@import 	"content/251_setupbasic/emphasis";
+			@import 	"content/251_setupbasic/selection";
+			@import 	"content/252_setupbasic/headline";
+			@import 	"content/251_setupbasic/paragraph";
+			@import 	"content/251_setupbasic/blockquote";
+			@import 	"content/251_setupbasic/cite";
+			@import 	"content/251_setupbasic/caption";
+			@import 	"content/251_setupbasic/aside";
+
+// -------------------------------------------------------------------- SELECTOR | 2018-06-06
+			@import 	"selector/251_setupbasic/boxsizing";
+			@import 	"selector/251_setupbasic/display";
+			@import 	"selector/254_setupbasic/figure";
+			@import 	"selector/251_setupbasic/align";
+			@import 	"selector/251_setupbasic/clear";
+			@import 	"selector/251_setupbasic/overflow";
+	@import 	"selector/261_setupbasic/position";
+			@import 	"selector/252_setupbasic/hide";
+	@import 	"selector/260_setupbasic/flex";
+
+// -------------------------------------------------------------------- EFFECT | 2017-08-31
+			@import 	"effect/251_setupbasic/transition";
+
+// -------------------------------------------------------------------- SPACING | 2018-06-06
+	@import 	"spacing/261_setupbasic/space";
+	@import 	"spacing/261_setupbasic/space-responsive";
+	@import 	"spacing/261_setupbasic/spacein";
+	@import 	"spacing/261_setupbasic/spacein-responsive";
+	@import 	"spacing/261_setupbasic/spacer";
+
+// -------------------------------------------------------------------- LINE | 2017-08-31
+			@import 	"line/254_setupbasic/border";
+			@import 	"line/251_setupbasic/divider";
+
+// -------------------------------------------------------------------- COLOR | 2018-07-17
+			@import 	"color/254_setupbasic/color";
+			@import 	"color/254_setupbasic/bgcolor";
+	@import 	"color/260_setupbasic/shadow";
+	@import 	"color/260_setupbasic/shade";
+	@import 	"color/262_setupbasic/tint";
+	@import 	"color/262_setupbasic/fade";
+			@import 	"color/254_setupbasic/gradient";
+			@import 	"color/254_setupbasic/opacity";
+
+// -------------------------------------------------------------------- TYPE | 2018-06-05
+			@import 	"type/251_setupbasic/family";
+	@import 	"type/261_setupbasic/size";
+			@import 	"type/251_setupbasic/weight";
+			@import 	"type/251_setupbasic/height";
+			@import 	"type/251_setupbasic/spacing";
+
+// -------------------------------------------------------------------- FORM | 2017-08-31
+			@import 	"form/251_setupbasic/button";
+			@import 	"form/251_setupbasic/input";
+			@import 	"form/251_setupbasic/table";
+
+// -------------------------------------------------------------------- GRID | 2018-09-12
+	@import 	"grid/263_setupbasic_grid/column";
+	@import 	"grid/263_setupbasic_grid/grid";
+	@import 	"grid/263_setupbasic_grid/column-responsive";
+	@import 	"grid/263_setupbasic_grid/grid-responsive";
+	@import 	"grid/262_setupbasic/gap-responsive";
+
+// -------------------------------------------------------------------- GRAPHIC | 2018-05-09
+			@import 	"graphic/253_setupbasic/media";
+	@import 	"graphic/260_setupbasic/align";
+			@import 	"graphic/254_setupbasic/percent";
+			@import 	"graphic/253_setupbasic/pic";
+			@import 	"graphic/253_setupbasic/icon";
+
+// -------------------------------------------------------------------- CTA | 2018-07-06
+			@import 	"cta/262_setupbasic/button";
+
+// -------------------------------------------------------------------- MAP | 2017-08-31
+			@import 	"map/251_setupbasic/breadcrumb";
+			@import 	"map/251_setupbasic/pagination";
+			@import 	"map/251_setupbasic/accessibility";
+
+// -------------------------------------------------------------------- MENU (MEGAMENU) | 2018-09-24
+	//@import 	"menu/260_setupbasic/guide";
+			@import 	"menu/263_setupbasic_grid/nav";
+	@import 	"menu/262_setupbasic/menu";
+	@import 	"menu/263_setupbasic/megamenu";
+	@import 	"menu/260_setupbasic/megamenu-levelone";
+	@import 	"menu/260_setupbasic/megamenuitem";
+
+// -------------------------------------------------------------------- SETUP | LIST | 2017-08-31
+			@import 	"setup/251_setupbasic/list";
+
+// -------------------------------------------------------------------- GUI | 2018-09-11
+	@import 	"gui/262_setupbasic/width";
+	@import 	"gui/261_setupbasic_grid/percent";
+	@import 	"gui/263_setupbasic_grid/outerinner";
+	@import 	"gui/263_setupbasic/section";
+	@import 	"gui/263_setupbasic_grid/section-width";
+	@import 	"gui/263_setupbasic/mainside";
+
+// -------------------------------------------------------------------- STRUCTURE | LAYOUT | 2018-06-20
+	@import 	"layout/262_setupbasic/structure";
+
+// -------------------------------------------------------------------- HEADER | LAYOUT | 2018-09-10
+	@import 	"layout/263_setupbasic_grid/header";
+
+// -------------------------------------------------------------------- INNER | LAYOUT | 2018-09-10
+	@import 	"layout/263_setupbasic_grid/inner";
+
+// -------------------------------------------------------------------- FOOTER | LAYOUT | 2018-09-10
+	@import 	"layout/263_setupbasic_grid/footer";
+
+// -------------------------------------------------------------------- WIDGET | LAYOUT | 2018-06-28
+	@import 	"layout/262_setupbasic/widget";
+
+// -------------------------------------------------------------------- CREDIT | LAYOUT | 2018-09-10
+	@import 	"layout/263_setupbasic_grid/credit";
+
+// -------------------------------------------------------------------- LAYOUT | STRUCTURE | 2018-06-20
+	@import 	"layout/262_setupbasic/full";
+	@import 	"layout/262_setupbasic_grid/cs";
+	@import 	"layout/262_setupbasic_grid/sc";
+	@import 	"layout/262_setupbasic_grid/css";
+	@import 	"layout/262_setupbasic_grid/scs";
+	@import 	"layout/262_setupbasic_grid/ssc";
+
+// -------------------------------------------------------------------- INNER | LAYOUT | 2018-09-11
+	@import 	"layout/263_setupbasic_grid/inner-maxwidth";
+	@import 	"layout/263_setupbasic/inner-maxspace";
+
+// -------------------------------------------------------------------- PANEL 2017-09-19
+			@import 	"panel/251_setupbasic/default";
+
+// -------------------------------------------------------------------- BLOCK 2017-10-05
+			//@import 	"block/252_setupbasic/guide";
+			//@import 	"block/252_setupbasic/mainside";
+			//@import 	"block/252_setupbasic/width";
+			//@import 	"block/252_setupbasic/position";
+			//@import 	"block/252_setupbasic/transform";
+			//@import 	"block/252_setupbasic/common";
+
+// -------------------------------------------------------------------- MODULE 2017-09-12
+			@import 	"module/251_setupbasic/infolist";
+			@import 	"module/251_setupbasic/infocard";
+
+// -------------------------------------------------------------------- ENTRY | LAYOUT | 2018-03-30
+			//@import 	"entry/251_setupbasic/entry";
+			@import 	"entry/251_setupbasic/entrytitle";
+			@import 	"entry/254_setupbasic/entrymeta";
+			@import 	"entry/251_setupbasic/entryheader";
+			//@import 	"entry/251_setupbasic/entrycontent";
+			//@import 	"entry/251_setupbasic/entryfooter";
+			//@import 	"entry/251_setupbasic/entryimage";
+
+// -------------------------------------------------------------------- ENTRY-ARCHIVE | 2018-1-3
+			@import 	"entry-archive/253_setupbasic/entry";
+			@import 	"entry-archive/253_setupbasic/entrytitle";
+			@import 	"entry-archive/253_setupbasic/entrymeta";
+			//@import 	"entry-archive/251_setupbasic/entryheader";
+			//@import 	"entry-archive/251_setupbasic/entrycontent";
+			//@import 	"entry-archive/251_setupbasic/entryfooter";
+			//@import 	"entry-archive/251_setupbasic/entryimage";
+			@import 	"entry-archive/251_setupbasic/archivedescription";
+			@import 	"entry-archive/251_setupbasic/archivepagination";
+
+// -------------------------------------------------------------------- ENTRY-FEATURED | 2018-1-3
+			@import 	"entry-featured/251_setupbasic/entry";
+			@import 	"entry-featured/253_setupbasic/entrytitle";
+			@import 	"entry-featured/251_setupbasic/entrymeta";
+			//@import 	"entry-featured/251_setupbasic/entryheader";
+			//@import 	"entry-featured/251_setupbasic/entrycontent";
+			//@import 	"entry-featured/251_setupbasic/entryfooter";
+			@import 	"entry-featured/253_setupbasic/entryimage";
+			//@import 	"entry-featured/251_setupbasic/morelink";
+			@import 	"entry-featured/251_setupbasic/morefromcategory";
+
+// -------------------------------------------------------------------- COMMENT | 2018-05-31
+			@import 	"comment/251_setupbasic/entrycomments";
+			@import 	"comment/251_setupbasic/entrypings";
+			@import 	"comment/251_setupbasic/pinglist";
+			@import 	"comment/251_setupbasic/commentlist";
+			@import 	"comment/251_setupbasic/comment";
+	@import 	"comment/260_setupbasic/comment-child";
+			@import 	"comment/251_setupbasic/commentauthor";
+			@import 	"comment/251_setupbasic/commentmeta";
+	@import 	"comment/260_setupbasic/commentcontent";
+	@import 	"comment/260_setupbasic/commentreply";
+			@import 	"comment/251_setupbasic/commenteditlink";
+			@import 	"comment/251_setupbasic/commentrespond";
+			@import 	"comment/251_setupbasic/commentrespond-form";
+			//@import 	"comment/251_setupbasic/loggedinas";
+			//@import 	"comment/251_setupbasic/formallowedtags";
+
+// -------------------------------------------------------------------- GUIDE | LAYOUT | 2018-06-23
+			@import 	"guide/253_setupbasic/label";
+	@import 	"guide/260_setupbasic/nav";
+	//@import 	"guide/260_setupbasic/header";
+	//@import 	"guide/260_setupbasic/inner";
+	//@import 	"guide/260_setupbasic/footer";
+			@import 	"grid/254_setupbasic/guide";
+	@import 	"gui/263_setupbasic/guide";
+
+// -------------------------------------------------------------------- RESPONSIVE ITEMS | 2016-07-13
+@import 	"responsive/250_model-basicsetup/layout";
+@import 	"responsive/230_base/float";
+@import 	"responsive/230_base/align";
+
+// -------------------------------------------------------------------- RESPONSIVE | 2017-08-31
+			//@import 	"responsive/251_setupbasic/device";
+
+// -------------------------------------------------------------------- PLUGIN | 2018-07-19
+	@import 	"plugin/260_setupbasic/shortcodesultimate";
