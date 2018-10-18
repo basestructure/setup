@@ -1,4 +1,4 @@
-/* MODEL | SETUP-LOGOMENU | STYLE - 2018-10-16 3:44 PM */
+/* SETUP | SETUP-LOGOMENU | STYLE - 2018-10-18 3:44 PM */
 /*
 	Theme Name: SETUP-LOGOMENU
 	Theme URI: https://setup.smartwebpackage.com/setup-logomenu
@@ -3521,7 +3521,9 @@ a.button:hover {
     .nav-primary {
       grid-template-columns: 1fr;
       grid-template-rows: 1fr auto 1fr;
-      grid-template-areas: "." "navprimarywrap" "."; } }
+      grid-template-areas: "."
+ "navprimarywrap"
+ "."; } }
 
 .nav-primary > .wrap {
   grid-area: navprimarywrap; }
@@ -3531,12 +3533,16 @@ a.button:hover {
   display: grid;
   grid-template-columns: 1rem 1fr 1rem;
   grid-template-rows: 1rem auto 1rem;
-  grid-template-areas: ". . ." ". navsecondarywrap ." ". . ."; }
+  grid-template-areas: ". . ."
+ ". navsecondarywrap ."
+ ". . ."; }
   @media only screen and (min-width: 48rem) {
     .nav-secondary {
       grid-template-columns: 1rem 1fr minmax(0, 48rem) 1fr 1rem;
       grid-template-rows: 1rem auto 1rem;
-      grid-template-areas: ". . . . ." ". . navsecondarywrap . ." ". . . . ."; } }
+      grid-template-areas: ". . . . ."
+ ". . navsecondarywrap . ."
+ ". . . . ."; } }
 
 .nav-secondary > .wrap {
   grid-area: navsecondarywrap; }
@@ -3546,12 +3552,16 @@ a.button:hover {
   display: grid;
   grid-template-columns: 1rem 1fr 1rem;
   grid-template-rows: 1rem auto 1rem;
-  grid-template-areas: ". . ." ". navfooterwrap ." ". . ."; }
+  grid-template-areas: ". . ."
+ ". navfooterwrap ."
+ ". . ."; }
   @media only screen and (min-width: 48rem) {
     .nav-footer {
       grid-template-columns: 1rem 1fr minmax(0, 48rem) 1fr 1rem;
       grid-template-rows: 1rem auto 1rem;
-      grid-template-areas: ". . . . ." ". . navfooterwrap . ." ". . . . ."; } }
+      grid-template-areas: ". . . . ."
+ ". . navfooterwrap . ."
+ ". . . . ."; } }
 
 .nav-footer > .wrap, #mega-menu-wrap-footer.mega-menu-wrap {
   grid-area: navfooterwrap; }
@@ -4096,7 +4106,8 @@ img.size-seveneights, .percent-seveneights {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  grid-template-areas: "sitetitle" "sitedescription";
+  grid-template-areas: "sitetitle"
+ "sitedescription";
   grid-column: 1;
   grid-row: 2;
   -ms-grid-column: 1;
@@ -4728,37 +4739,57 @@ img.size-seveneights, .percent-seveneights {
 .card-maintitle-summary .infocard {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "infocard-card" "infocard-maintitle" "infocard-summary"; }
+  grid-template-areas: "infocard-card"
+ "infocard-maintitle"
+ "infocard-summary"; }
 
 .card-pretitle-maintitle-summary .infocard {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "infocard-card" "infocard-pretitle" "infocard-maintitle" "infocard-summary"; }
+  grid-template-areas: "infocard-card"
+ "infocard-pretitle"
+ "infocard-maintitle"
+ "infocard-summary"; }
 
 .card-maintitle-subtitle-summary .infocard {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "infocard-card" "infocard-maintitle" "infocard-subtitle" "infocard-summary"; }
+  grid-template-areas: "infocard-card"
+ "infocard-maintitle"
+ "infocard-subtitle"
+ "infocard-summary"; }
 
 .card-pretitle-maintitle .infocard {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "infocard-card" "infocard-pretitle" "infocard-maintitle"; }
+  grid-template-areas: "infocard-card"
+ "infocard-pretitle"
+ "infocard-maintitle"; }
 
 .card-maintitle-subtitle .infocard {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "infocard-card" "infocard-maintitle" "infocard-subtitle"; }
+  grid-template-areas: "infocard-card"
+ "infocard-maintitle"
+ "infocard-subtitle"; }
 
 .pretitle-card-maintitle-subtitle-summary .infocard {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "infocard-pretitle" "infocard-card" "infocard-maintitle" "infocard-subtitle" "infocard-summary"; }
+  grid-template-areas: "infocard-pretitle"
+ "infocard-card"
+ "infocard-maintitle"
+ "infocard-subtitle"
+ "infocard-summary"; }
 
 .card-pretitle-maintitle-subtitle-summary .infocard {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "infocard-card" "infocard-pretitle" "infocard-maintitle" "infocard-subtitle" "infocard-summary"; }
+  grid-template-areas: "infocard-card"
+ "infocard-pretitle"
+ "infocard-maintitle"
+ "infocard-subtitle"
+ "infocard-summary"; }
 
 /* SETUP | ENTRY | 251_SETUPBASIC | ENTRYTITLE - 2017-08-31 */
 .entry-title {
