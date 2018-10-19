@@ -3,7 +3,7 @@
  * SETUP
  * This file adds functions to the SETUP Theme.
  *
- * @package SETUP
+ * @package SETUP-INSTALL
  * @author  Mark Corpuz
  * @license GPL-2.0+
  * @link    http://markcorpuz.com/
@@ -40,8 +40,8 @@ include_once( get_stylesheet_directory() . '/lib/woocommerce/woocommerce-output.
 include_once( get_stylesheet_directory() . '/lib/woocommerce/woocommerce-notice.php' );
 
 //* Child theme (do not remove)
-define( 'CHILD_THEME_NAME', 'SETUP' );
-define( 'CHILD_THEME_URL', 'https://setup.smartwebpackage.com' );
+define( 'CHILD_THEME_NAME', 'SETUP-INSTALL' );
+define( 'CHILD_THEME_URL', 'https://setup-install.smartwebpackage.com' );
 define( 'CHILD_THEME_VERSION', '2.6.1.1' );
 
 

@@ -1,7 +1,7 @@
-/* SETUP | SETUP | STYLE - 2018-10-15 8:40 PM */
+/* SETUP | SETUP-INSTALL | STYLE - 2018-10-18 3:54 PM */
 /*
-	Theme Name: SETUP
-	Theme URI: https://setup.smartwebpackage.com
+	Theme Name: SETUP-INSTALL
+	Theme URI: https://setup-install.smartwebpackage.com
 	Description: Site prototype for SmartWebPackage.com
 	Author: Mark Corpuz
 	Author URI: http://markcorpuz.com/
@@ -4055,7 +4055,7 @@ img.size-seveneights, .percent-seveneights {
 
 /* SETUP | GUI | 263_SETUPBASIC | MAINSIDE - 2018-06-24 */
 /* SETUP | LAYOUT | 262_SETUPBASIC | STRUCTURE - 2018-06-20 */
-/* SETUP | HEADER | 2611_SETUP_GRID | HEADER - 2018-10-15 */
+/* SETUP | HEADER | 2611_SETUP_GRID | HEADER - 2018-10-18 */
 .site-header {
   grid-area: header;
   display: grid;
@@ -4086,8 +4086,8 @@ img.size-seveneights, .percent-seveneights {
       -ms-grid-column: 2; } }
   @media only screen and (min-width: 64rem) {
     .site-header > .wrap {
-      grid-template-columns: auto 1fr;
-      -ms-grid-columns: auto 1fr; } }
+      grid-template-columns: auto;
+      -ms-grid-columns: auto; } }
 
 .title-area {
   grid-area: titlearea;
@@ -4096,11 +4096,15 @@ img.size-seveneights, .percent-seveneights {
   grid-template-rows: auto;
   grid-template-areas: "sitetitle" "sitedescription";
   grid-column: 1;
-  -ms-grid-column: 1; }
+  grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-row: 1; }
   @media only screen and (min-width: 64rem) {
     .title-area {
       grid-column: 1;
-      -ms-grid-column: 1; } }
+      grid-row: 1;
+      -ms-grid-column: 1;
+      -ms-grid-row: 1; } }
 
 .header-widget-area {
   grid-area: headerwidgetarea; }
@@ -4141,11 +4145,16 @@ img.size-seveneights, .percent-seveneights {
 
 .site-header .nav-primary {
   grid-column: 1;
-  -ms-grid-column: 1; }
+  grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-row: 2;
+  margin-top: 1rem; }
   @media only screen and (min-width: 64rem) {
     .site-header .nav-primary {
-      grid-column: 2;
-      -ms-grid-column: 2; } }
+      grid-column: 1;
+      grid-row: 2;
+      -ms-grid-column: 1;
+      -ms-grid-row: 2; } }
 
 /* SETUP | LAYOUT | 2611_SETUP_GRID | INNER - 2018-10-15 */
 .site-inner {
@@ -4159,7 +4168,9 @@ img.size-seveneights, .percent-seveneights {
   @media only screen and (min-width: 64rem) {
     .site-inner {
       grid-template-columns: 1fr minmax(0, 48rem) 1fr;
-      -ms-grid-columns: 1fr minmax(0, 48rem) 1fr; } }
+      -ms-grid-columns: 1fr minmax(0, 48rem) 1fr;
+      padding-top: 2rem;
+      padding-bottom: 2rem; } }
 
 .site-inner .content-sidebar-wrap {
   grid-column: 1;
@@ -4936,123 +4947,6 @@ img.size-seveneights, .percent-seveneights {
 .comment-respond textarea {
   width: 100%;
   box-sizing: border-box; }
-
-/* SETUP | GUIDE | 253_SETUPBASIC | DEMO - 2018-02-10 */
-.guide-label.indent, .guide-line.indent, .guide-summary.indent, .guide-box.indent {
-  margin-left: 2rem; }
-
-.guide-label, .guide-label.end {
-  font-size: 0.75rem;
-  padding: 5px 10px;
-  color: white;
-  background-color: #e5565d;
-  display: inline-block; }
-
-.guide-label.sub {
-  background-color: #ef989d; }
-
-.guide-label.end {
-  float: right;
-  clear: both; }
-
-.guide-line {
-  border-top: 1px solid #e5565d; }
-
-.guide-summary {
-  font-size: 0.875rem;
-  padding: 5px 10px;
-  background-color: #eee;
-  border-left: 5px solid #e5565d; }
-
-.guide-summary.sub {
-  background-color: #f3f3f3;
-  border-left: 5px solid #ef989d; }
-
-.guide-box {
-  border-top: 1px solid #e5565d;
-  border-right: 1px solid #e5565d;
-  border-bottom: 1px solid #e5565d;
-  border-left: 1px solid #e5565d; }
-
-.guide-box.sub {
-  border-top: 1px solid #ef989d;
-  border-right: 1px solid #ef989d;
-  border-bottom: 1px solid #ef989d;
-  border-left: 1px solid #ef989d; }
-
-.guide-box.corner {
-  border-top: 1px solid #e5565d;
-  border-right: 0;
-  border-left: 1px solid #e5565d;
-  border-bottom: 0; }
-
-.guide-box.corner.sub {
-  border-top: 1px solid #ef989d;
-  border-left: 1px solid #ef989d; }
-
-.guide-box.vertical {
-  border-top: 1px solid #e5565d;
-  border-right: 0;
-  border-bottom: 1px solid #e5565d;
-  border-left: 0; }
-
-.guide-box.vertical.sub {
-  border-top: 1px solid #ef989d;
-  border-bottom: 1px solid #ef989d; }
-
-/* SETUP | GUIDE | 260_GUIDE | NAV - 2018-04-29 */
-.nav-primary {
-  background-color: #dcbaff; }
-
-.nav-primary > .wrap {
-  background-color: #e3c8ff; }
-
-.nav-secondary {
-  background-color: #dcbaff; }
-
-.nav-secondary > .wrap {
-  background-color: #e3c8ff; }
-
-.nav-footer {
-  background-color: #dcbaff; }
-
-.nav-footer > .wrap, #mega-menu-wrap-footer.mega-menu-wrap {
-  background-color: #e3c8ff; }
-
-/* SETUP | GRID | 254_SETUPBASIC | GUIDE - 2018-04-09 */
-.grid-full > div, .grid-half > div, .grid-third > div, .grid-fourth > div, .grid-fifth > div, .grid-sixth > div, .grid-eight > div {
-  background-color: #F9E79F; }
-
-.full, .half, .columns-fifth > .half, .columns-eight > .half, .third, .twothirds, .fourth, .threefourths, .fifth, .columns-fifth > .full, .fourfifths, .threefifths, .twofifths, .sixth, .fivesixths, .eight, .columns-eight > .full, .seveneights, .columns-eight > .threefourths, .fiveeights, .threeeights, .columns-eight > .fourth, .columns > div {
-  background-color: #F5B7B1; }
-
-/* SETUP | GUI | 263_SETUPBASIC | GUIDE - 2018-05-23 */
-.outer {
-  background-color: #ffd900; }
-
-.inner {
-  background-color: #ffaf00; }
-
-.main {
-  background-color: #4d85ff; }
-
-.side {
-  background-color: #ff6e4d; }
-
-.left {
-  background-color: #9ab9ff; }
-
-.right {
-  background-color: #ffac9a; }
-
-.center {
-  background-color: #b9ff9a; }
-
-.outer {
-  background-color: pink; }
-
-.inner {
-  background-color: yellow; }
 
 /* BASE_230 | RESPONSIVE | 250_BASE | LAYOUT - 2017-06-06 */
 /* BASE_230 | RESPONSIVE | 230_BASE | FLOAT - 2016-07-13 */
