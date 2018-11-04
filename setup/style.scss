@@ -1,5 +1,7 @@
+<<<<<<< HEAD
 /* SETUP | SETUP-LOGOMENU | STYLE - 2018-10-18 3:44 PM */
 /* SETUP | SETUP | STYLE - 2018-10-15 8:40 PM */
+>>>>>>> master
 // 2.6.1.1
 // MODEL | SETUP-BASIC | STYLE - 2018-09-11 9:58 PM
 
@@ -23,13 +25,13 @@
 	@import 	"variables/262_setupbasic/width-range";
 	@import 	"variables/262_setupbasic/responsive-range";
 
-// -------------------------------------------------------------------- TYPOGRAPHY | VARIABLES | 2018-10-15
+// -------------------------------------------------------------------- TYPOGRAPHY | VARIABLES | 2018-10-31
 	@import 	"variables/260_setupbasic/fontfamily";
 @import 	"variables/2611_setup/fontsize";
-	@import 	"variables/260_setupbasic/fontweight";
+@import 	"variables/2611_setup/fontweight";
 	@import 	"variables/260_setupbasic/lineheight";
 	@import 	"variables/260_setupbasic/letterspacing";
-	@import 	"variables/262_setupbasic/color";
+@import 	"variables/2611_setup/color";
 
 // -------------------------------------------------------------------- LAYOUT | BODY | 2018-06-20
 	@import 	"layout/262_setupbasic/body";
@@ -59,12 +61,12 @@
 // -------------------------------------------------------------------- EFFECT | 2017-08-31
 			@import 	"effect/251_setupbasic/transition";
 
-// -------------------------------------------------------------------- SPACING | 2018-06-06
-	@import 	"spacing/261_setupbasic/space";
-	@import 	"spacing/261_setupbasic/space-responsive";
-	@import 	"spacing/261_setupbasic/spacein";
-	@import 	"spacing/261_setupbasic/spacein-responsive";
-	@import 	"spacing/261_setupbasic/spacer";
+// -------------------------------------------------------------------- SPACING | 2018-10-31
+@import 	"spacing/2611_setup/space";
+@import 	"spacing/2611_setup/space-responsive";
+@import 	"spacing/2611_setup/spacein";
+@import 	"spacing/2611_setup/spacein-responsive";
+@import 	"spacing/2611_setup/spacer";
 
 // -------------------------------------------------------------------- LINE | 2017-08-31
 			@import 	"line/254_setupbasic/border";
@@ -87,8 +89,8 @@
 			@import 	"type/251_setupbasic/height";
 			@import 	"type/251_setupbasic/spacing";
 
-// -------------------------------------------------------------------- FORM | 2017-08-31
-			@import 	"form/251_setupbasic/button";
+// -------------------------------------------------------------------- FORM | 2018-10-28
+@import 	"form/2611_setup/button";
 			@import 	"form/251_setupbasic/input";
 			@import 	"form/251_setupbasic/table";
 
@@ -99,15 +101,15 @@
 	@import 	"grid/263_setupbasic_grid/grid-responsive";
 	@import 	"grid/262_setupbasic/gap-responsive";
 
-// -------------------------------------------------------------------- GRAPHIC | 2018-05-09
-			@import 	"graphic/253_setupbasic/media";
-	@import 	"graphic/260_setupbasic/align";
+// -------------------------------------------------------------------- GRAPHIC | 2018-10-31
+@import 	"graphic/2611_setup/media";
+@import 	"graphic/2611_setup/align";
 			@import 	"graphic/254_setupbasic/percent";
 			@import 	"graphic/253_setupbasic/pic";
 			@import 	"graphic/253_setupbasic/icon";
 
-// -------------------------------------------------------------------- CTA | 2018-07-06
-			@import 	"cta/262_setupbasic/button";
+// -------------------------------------------------------------------- CTA | 2018-10-28
+@import 	"cta/2611_setup/button";
 
 // -------------------------------------------------------------------- MAP | 2017-08-31
 			@import 	"map/251_setupbasic/breadcrumb";
@@ -133,8 +135,8 @@
 	@import 	"gui/263_setupbasic_grid/section-width";
 	@import 	"gui/263_setupbasic/mainside";
 
-// -------------------------------------------------------------------- STRUCTURE | LAYOUT | 2018-06-20
-	@import 	"layout/262_setupbasic/structure";
+// -------------------------------------------------------------------- STRUCTURE | 2018-10-30
+@import 	"structure/2611_setup/structure";
 
 // -------------------------------------------------------------------- HEADER | 2018-10-16
 @import 	"header/2611_setup_grid/header-logomenu";
@@ -151,13 +153,13 @@
 // -------------------------------------------------------------------- CREDIT | 2018-10-15
 @import 	"credit/2611_setup_grid/credit";
 
-// -------------------------------------------------------------------- LAYOUT | STRUCTURE | 2018-06-20
-	@import 	"layout/262_setupbasic/full";
-	@import 	"layout/262_setupbasic_grid/cs";
-	@import 	"layout/262_setupbasic_grid/sc";
-	@import 	"layout/262_setupbasic_grid/css";
-	@import 	"layout/262_setupbasic_grid/scs";
-	@import 	"layout/262_setupbasic_grid/ssc";
+// -------------------------------------------------------------------- LAYOUT | 2018-10-30
+@import 	"layout/2611_setup_grid/full";
+@import 	"layout/2611_setup_grid/cs";
+@import 	"layout/2611_setup_grid/sc";
+@import 	"layout/2611_setup_grid/css";
+@import 	"layout/2611_setup_grid/scs";
+@import 	"layout/2611_setup_grid/ssc";
 
 // -------------------------------------------------------------------- INNER | LAYOUT | 2018-09-11
 	@import 	"layout/263_setupbasic_grid/inner-maxwidth";
@@ -226,14 +228,17 @@
 			//@import 	"comment/251_setupbasic/loggedinas";
 			//@import 	"comment/251_setupbasic/formallowedtags";
 
-// -------------------------------------------------------------------- GUIDE | LAYOUT | 2018-10-16
-			@import 	"guide/253_setupbasic/label";
+<<<<<<< HEAD
+// -------------------------------------------------------------------- GUIDE | LAYOUT | 2018-10-21
+@import 	"guide/2611_setup/label";
+@import 	"guide/2611_setup/mock";
+>>>>>>> master
 	//@import 	"guide/260_setupbasic/nav";
 	//@import 	"guide/260_setupbasic/header";
 	//@import 	"guide/260_setupbasic/inner";
 	//@import 	"guide/260_setupbasic/footer";
-			@import 	"grid/254_setupbasic/guide";
-	@import 	"gui/263_setupbasic/guide";
+			//@import 	"grid/254_setupbasic/guide";
+	//@import 	"gui/263_setupbasic/guide";
 
 // -------------------------------------------------------------------- RESPONSIVE ITEMS | 2016-07-13
 @import 	"responsive/250_model-basicsetup/layout";
