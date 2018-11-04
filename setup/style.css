@@ -1,4 +1,4 @@
-/* SETUP | SETUP-INSTALL | STYLE - 2018-10-18 3:54 PM */
+/* SETUP | SETUP-INSTALL | STYLE - 2018-11-04 3:39 AM */
 /*
 	Theme Name: SETUP-INSTALL
 	Theme URI: https://setup-install.smartwebpackage.com
@@ -174,11 +174,11 @@ textarea {
 /* SETUP | VARIABLES | 262_SETUPBASIC | WIDTH-RANGE - 2018-06-18 */
 /* SETUP | VARIABLES | 261_SETUPBASIC | RESPONSIVE-RANGE - 2018-06-08 */
 /* SETUP | VARIABLES | 260_SETUPBASIC | FONTFAMILY - 2018-04-20 */
-/* SETUP | VARIABLES | 261_SETUP | FONTSIZE - 2018-10-15 */
-/* SETUP | VARIABLES | 260_SETUPBASIC | FONTWEIGHT - 2018-05-24 */
+/* SETUP | VARIABLES | 2611_SETUP | FONTSIZE - 2018-10-15 */
+/* SETUP | VARIABLES | 2611_SETUP | FONTWEIGHT - 2018-11-31 */
 /* SETUP | VARIABLES | 260_SETUPBASIC | LINEHEIGHT - 2018-04-20 */
 /* SETUP | VARIABLES | 260_SETUPBASIC | LETTERSPACING - 2018-04-20 */
-/* SETUP | VARIABLES | 262_SETUPBASIC | COLOR - 2018-07-06 */
+/* SETUP | VARIABLES | 2611_SETUP | COLOR - 2018-10-31 */
 /* SETUP | LAYOUT | 262_SETUPBASIC | BODY - 2018-06-20 */
 body {
   color: #333;
@@ -440,7 +440,7 @@ textarea:focus, .button,
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out; }
 
-/* SETUP | SPACING | 261_SETUPBASIC | SPACE - 2018-06-05 */
+/* SETUP | SPACING | 2611_SETUP | SPACE - 2018-10-31 */
 .space, .space-y, .space-top, .space-bottomless {
   margin-top: 1rem; }
 
@@ -471,7 +471,7 @@ textarea:focus, .button,
 .space-zero, .space-zero-y, .space-zero-top {
   margin-top: 0; }
 
-.space, .space-y, .space-bottom, .space-topless {
+.space, .space-y, .space-bottom, .space-topless, figure.aligncenter.wp-caption.space-bottom, figure.alignleft.wp-caption.space-bottom, figure.alignright.wp-caption.space-bottom, figure.alignnone.wp-caption.space-bottom {
   margin-bottom: 1rem; }
 
 .space-sml, .space-sml-y, .space-sml-bottom, .space-sml-topless {
@@ -561,7 +561,7 @@ textarea:focus, .button,
 .space-zero, .space-zero-x, .space-zero-right {
   margin-right: 0; }
 
-/* SETUP | SPACING | 261_SETUPBASIC | SPACE - 2018-06-22 */
+/* SETUP | SPACING | 2611_SETUP | SPACE - 2018-10-31 */
 @media only screen and (max-width: 48rem) {
   .space-med {
     margin: 1rem; } }
@@ -952,7 +952,7 @@ textarea:focus, .button,
   .space-xhuge-right {
     margin-right: 6rem; } }
 
-/* SETUP | SPACING | 261_SETUPBASIC | SPACEIN - 2018-06-05 */
+/* SETUP | SPACING | 2611_SETUP | SPACEIN - 2018-10-31 */
 .spacein, .spacein-y, .spacein-top, .spacein-bottomless {
   padding-top: 1rem; }
 
@@ -1073,7 +1073,7 @@ textarea:focus, .button,
 .spacein-zero, .spacein-zero-x, .spacein-zero-right {
   padding-right: 0; }
 
-/* SETUP | SPACING | 261_SETUPBASIC | SPACEIN - 2018-06-22 */
+/* SETUP | SPACING | 2611_SETUP | SPACEIN - 2018-10-31 */
 @media only screen and (max-width: 48rem) {
   .spacein-med {
     padding: 1rem; } }
@@ -1464,7 +1464,7 @@ textarea:focus, .button,
   .spacein-xhuge-right {
     padding-right: 6rem; } }
 
-/* SETUP | SPACING | 261_SETUPBASIC | SPACER - 2018-09-18 */
+/* SETUP | SPACING | 2611_SETUP | SPACER - 2018-10-31 */
 .spacer-headliner {
   padding: 1rem; }
   @media only screen and (min-width: 64rem) {
@@ -2319,7 +2319,7 @@ a.button {
 .letterspacing-wider {
   letter-spacing: 0.125rem; }
 
-/* SETUP | FORM | 251_SETUPBASIC | BUTTON - 2017-08-31 */
+/* SETUP | FORM | 2611_SETUP | BUTTON - 2018-10-28 */
 /* SETUP | FORM | 251_SETUPBASIC | INPUT - 2017-08-31 */
 input:not([type=submit]):not([type=file]):not([type=image]), textarea, select {
   border: 1px solid #ccc;
@@ -3262,14 +3262,14 @@ th {
     .gap-xlrg, .gap-xlrg-y {
       grid-row-gap: 1rem; } }
 
-/* SETUP | GRAPHIC | 253_SETUPBASIC | MEDIA - 2017-12-12 */
+/* SETUP | GRAPHIC | 2611_SETUP | MEDIA - 2018-10-31 */
 img.size-thumbnail, img.size-medium, img.size-large, img.size-full, img.size-max, img.size-half, img.size-third, img.size-twothirds, img.size-fourth, img.size-threefourths, img.size-fifth, img.size-twofifths, img.size-threefifths, img.size-fourfifths, img.size-sixth, img.size-fivesixths, img.size-eight, img.size-seveneights, .pic-tiny, .pic-xsml, .pic-sml, .pic-med, .pic-lrg, .pic-xlrg, .pic-huge, img.pic-tiny, img.pic-xsml, img.pic-sml, img.pic-med, img.pic-lrg, img.pic-xlrg, img.pic-huge, img.icon-tiny, img.icon-xsml, img.icon-sml, img.icon-med, img.icon-lrg, img.icon-xlrg, img.icon-huge {
   height: auto; }
 
-img.size-thumbnail, img.size-medium, img.size-large, img.size-full, img.size-max, .pic-tiny, .pic-xsml, .pic-sml, .pic-med, .pic-lrg, .pic-xlrg, .pic-huge, img.pic-tiny, img.pic-xsml, img.pic-sml, img.pic-med, img.pic-lrg, img.pic-xlrg, img.pic-huge, .wp-caption.pic-tiny, .wp-caption.pic-xsml, .wp-caption.pic-sml, .wp-caption.pic-med, .wp-caption.pic-lrg, .wp-caption.pic-xlrg, .wp-caption.pic-huge, img.icon-tiny, img.icon-xsml, img.icon-sml, img.icon-med, img.icon-lrg, img.icon-xlrg, img.icon-huge {
+img.size-thumbnail, img.size-medium, img.size-large, img.size-full, figure.wp-caption, img.size-max, .pic-tiny, .pic-xsml, .pic-sml, .pic-med, .pic-lrg, .pic-xlrg, .pic-huge, img.pic-tiny, img.pic-xsml, img.pic-sml, img.pic-med, img.pic-lrg, img.pic-xlrg, img.pic-huge, .wp-caption.pic-tiny, .wp-caption.pic-xsml, .wp-caption.pic-sml, .wp-caption.pic-med, .wp-caption.pic-lrg, .wp-caption.pic-xlrg, .wp-caption.pic-huge, img.icon-tiny, img.icon-xsml, img.icon-sml, img.icon-med, img.icon-lrg, img.icon-xlrg, img.icon-huge {
   width: 100% !important; }
 
-.wp-caption.size-thumbnail, .wp-caption.size-thumbnail img, .wp-caption.size-medium, .wp-caption.size-medium img, .wp-caption.size-large, .wp-caption.size-large img, .wp-caption.size-full, .wp-caption.size-full img, .wp-caption.pic-tiny img, .wp-caption.pic-xsml img, .wp-caption.pic-sml img, .wp-caption.pic-med img, .wp-caption.pic-lrg img, .wp-caption.pic-xlrg img, .wp-caption.pic-huge img {
+figure.wp-caption img.size-thumbnail, figure.wp-caption img.size-medium, figure.wp-caption img.size-large, figure.wp-caption img.size-full, .wp-caption.pic-tiny img, .wp-caption.pic-xsml img, .wp-caption.pic-sml img, .wp-caption.pic-med img, .wp-caption.pic-lrg img, .wp-caption.pic-xlrg img, .wp-caption.pic-huge img {
   width: 100% !important; }
 
 img.crisp {
@@ -3283,19 +3283,19 @@ img.crisp {
   -ms-interpolation-mode: nearest-neighbor;
   /* IE (non-standard property) */ }
 
-img.size-thumbnail, .wp-caption.size-thumbnail {
+img.size-thumbnail {
   max-width: 9.375rem; }
 
-img.size-medium, .wp-caption.size-medium {
+img.size-medium {
   max-width: 18.75rem; }
 
-img.size-large, .wp-caption.size-large {
+img.size-large {
   max-width: 64rem; }
 
-img.size-full, .wp-caption.size-full {
+img.size-full {
   max-width: 90rem; }
 
-/* SETUP | GRAPHIC | 260_SETUPBASIC | ALIGN - 2018-05-09 */
+/* SETUP | GRAPHIC | 2611_SETUP | ALIGN - 2018-10-31 */
 img.aligncenter, figure.aligncenter.wp-caption {
   float: none;
   margin-top: 0;
@@ -3412,7 +3412,7 @@ img.icon-xlrg {
 img.icon-huge {
   max-width: 5rem; }
 
-/* SETUP | CTA | 262_SETUPBASIC | BUTTON - 2018-07-06 */
+/* SETUP | CTA | 2611_SETUP | BUTTON - 2018-10-28 */
 button, input[type="button"], input[type="reset"], input[type="submit"], .button,
 a.button {
   border-width: 0;
@@ -3421,7 +3421,6 @@ a.button {
   display: inline-block;
   color: #fff;
   background-color: #147FC4;
-  padding: 0.5rem 1rem;
   text-transform: uppercase; }
 
 .button:link,
@@ -3436,7 +3435,7 @@ a.button:hover {
   background-color: #fff;
   text-decoration: none; }
 
-.button-tiny {
+.button, .button-tiny {
   padding: 0.0625rem; }
 
 .button-xsml {
@@ -4054,7 +4053,7 @@ img.size-seveneights, .percent-seveneights {
   -ms-grid-columns: 1fr 10rem; }
 
 /* SETUP | GUI | 263_SETUPBASIC | MAINSIDE - 2018-06-24 */
-/* SETUP | LAYOUT | 262_SETUPBASIC | STRUCTURE - 2018-06-20 */
+/* SETUP | STRUCTURE | 2611_SETUP | STRUCTURE - 2018-10-30 */
 /* SETUP | HEADER | 2611_SETUP_GRID | HEADER - 2018-10-18 */
 .site-header {
   grid-area: header;
@@ -4344,8 +4343,33 @@ img.size-seveneights, .percent-seveneights {
 .siteby a:hover {
   text-decoration: none; }
 
-/* SETUP | LAYOUT | 262_SETUPBASIC | FULL - 2018-06-20 */
-/* SETUP | LAYOUT | 262_SETUPBASIC_GRID | CS - 2018-06-20 */
+/* SETUP | LAYOUT | 2611_SETUP_GRID | CS - 2018-10-30 */
+@media only screen and (min-width: 64rem) {
+  .content-sidebar .site-inner {
+    -ms-grid-columns: 1fr minmax(0, 48rem) 1fr;
+    grid-template-columns: 1fr minmax(0, 48rem) 1fr; } }
+
+.content-sidebar .content-sidebar-wrap {
+  display: -ms-grid;
+  -ms-grid-columns: 1fr;
+  -ms-grid-rows: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto; }
+  @media only screen and (min-width: 64rem) {
+    .content-sidebar .content-sidebar-wrap {
+      -ms-grid-columns: minmax(0, 48rem);
+      grid-template-columns: minmax(0, 48rem); } }
+
+.content-sidebar .content {
+  -ms-grid-column: 1;
+  grid-column: 1; }
+  @media only screen and (min-width: 64rem) {
+    .content-sidebar .content {
+      -ms-grid-column: 1;
+      grid-column: 1; } }
+
+/* SETUP | LAYOUT | 2611_SETUP_GRID | CS - 2018-10-30 */
 @media only screen and (min-width: 64rem) {
   .content-sidebar .site-inner {
     -ms-grid-columns: 1fr minmax(0, 68rem) 1fr;
@@ -4379,7 +4403,7 @@ img.size-seveneights, .percent-seveneights {
       -ms-grid-column: 2;
       grid-column: 2; } }
 
-/* SETUP | LAYOUT | 262_SETUPBASIC_GRID | SC - 2018-06-20 */
+/* SETUP | LAYOUT | 2611_SETUP_GRID | SC - 2018-10-30 */
 @media only screen and (min-width: 64rem) {
   .sidebar-content .site-inner {
     -ms-grid-columns: 1fr minmax(0, 68rem) 1fr;
@@ -4417,11 +4441,11 @@ img.size-seveneights, .percent-seveneights {
       grid-column: 1;
       grid-row: 1; } }
 
-/* SETUP | LAYOUT | 262_SETUPBASIC_GRID | CSS - 2018-06-20 */
+/* SETUP | LAYOUT | 2611_SETUP_GRID | CSS - 2018-10-30 */
 @media only screen and (min-width: 64rem) {
   .content-sidebar-sidebar .site-inner {
-    -ms-grid-columns: 1fr minmax(0, 68rem) minmax(0, 20rem) 1fr;
-    grid-template-columns: 1fr minmax(0, 68rem) minmax(0, 20rem) 1fr; } }
+    -ms-grid-columns: 1fr minmax(0, 88rem) 1fr;
+    grid-template-columns: 1fr minmax(0, 88rem) 1fr; } }
 
 .content-sidebar-sidebar .content-sidebar-wrap {
   display: -ms-grid;
@@ -4429,17 +4453,11 @@ img.size-seveneights, .percent-seveneights {
   -ms-grid-rows: auto;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  -ms-grid-column: 1;
-  grid-column: 1; }
+  grid-template-rows: auto; }
   @media only screen and (min-width: 64rem) {
     .content-sidebar-sidebar .content-sidebar-wrap {
-      -ms-grid-columns: minmax(0, 48rem) minmax(0, 20rem);
-      grid-template-columns: minmax(0, 48rem) minmax(0, 20rem); } }
-  @media only screen and (min-width: 64rem) {
-    .content-sidebar-sidebar .content-sidebar-wrap {
-      -ms-grid-column: 2;
-      grid-column: 2; } }
+      -ms-grid-columns: minmax(0, 48rem) minmax(0, 20rem) minmax(0, 20rem);
+      grid-template-columns: minmax(0, 48rem) minmax(0, 20rem) minmax(0, 20rem); } }
 
 .content-sidebar-sidebar .content {
   -ms-grid-column: 1;
@@ -4447,7 +4465,9 @@ img.size-seveneights, .percent-seveneights {
   @media only screen and (min-width: 64rem) {
     .content-sidebar-sidebar .content {
       -ms-grid-column: 1;
-      grid-column: 1; } }
+      grid-column: 1;
+      -ms-grid-row: 1;
+      grid-row: 1; } }
 
 .content-sidebar-sidebar .sidebar-primary {
   -ms-grid-column: 1;
@@ -4455,7 +4475,9 @@ img.size-seveneights, .percent-seveneights {
   @media only screen and (min-width: 64rem) {
     .content-sidebar-sidebar .sidebar-primary {
       -ms-grid-column: 2;
-      grid-column: 2; } }
+      -ms-grid-row: 1;
+      grid-column: 2;
+      grid-row: 1; } }
 
 .content-sidebar-sidebar .sidebar-secondary {
   -ms-grid-column: 1;
@@ -4463,13 +4485,15 @@ img.size-seveneights, .percent-seveneights {
   @media only screen and (min-width: 64rem) {
     .content-sidebar-sidebar .sidebar-secondary {
       -ms-grid-column: 3;
-      grid-column: 3; } }
+      -ms-grid-row: 1;
+      grid-column: 3;
+      grid-row: 1; } }
 
-/* SETUP | LAYOUT | 262_SETUPBASIC_GRID | SCS - 2018-06-20 */
+/* SETUP | LAYOUT | 2611_SETUP_GRID | SCS - 2018-10-30 */
 @media only screen and (min-width: 64rem) {
   .sidebar-content-sidebar .site-inner {
-    -ms-grid-columns: 1fr minmax(0, 20rem) minmax(0, 68rem) 1fr;
-    grid-template-columns: 1fr minmax(0, 20rem) minmax(0, 68rem) 1fr; } }
+    -ms-grid-columns: 1fr minmax(0, 88rem) 1fr;
+    grid-template-columns: 1fr minmax(0, 88rem) 1fr; } }
 
 .sidebar-content-sidebar .content-sidebar-wrap {
   display: -ms-grid;
@@ -4477,51 +4501,47 @@ img.size-seveneights, .percent-seveneights {
   -ms-grid-rows: auto;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  -ms-grid-column: 1;
-  grid-column: 1; }
+  grid-template-rows: auto; }
   @media only screen and (min-width: 64rem) {
     .sidebar-content-sidebar .content-sidebar-wrap {
-      -ms-grid-columns: minmax(0, 48rem) minmax(0, 20rem);
-      grid-template-columns: minmax(0, 48rem) minmax(0, 20rem); } }
-  @media only screen and (min-width: 64rem) {
-    .sidebar-content-sidebar .content-sidebar-wrap {
-      -ms-grid-column: 3;
-      -ms-grid-row: 1;
-      grid-column: 3;
-      grid-row: 1; } }
+      -ms-grid-columns: minmax(0, 20rem) minmax(0, 48rem) minmax(0, 20rem);
+      grid-template-columns: minmax(0, 20rem) minmax(0, 48rem) minmax(0, 20rem); } }
 
 .sidebar-content-sidebar .content {
   -ms-grid-column: 1;
   grid-column: 1; }
   @media only screen and (min-width: 64rem) {
     .sidebar-content-sidebar .content {
-      -ms-grid-column: 1;
-      grid-column: 1; } }
+      -ms-grid-column: 2;
+      -ms-grid-row: 1;
+      grid-column: 2;
+      grid-row: 1; } }
 
 .sidebar-content-sidebar .sidebar-primary {
   -ms-grid-column: 1;
   grid-column: 1; }
   @media only screen and (min-width: 64rem) {
     .sidebar-content-sidebar .sidebar-primary {
-      -ms-grid-column: 2;
-      grid-column: 2; } }
+      -ms-grid-column: 3;
+      -ms-grid-row: 1;
+      grid-column: 3;
+      grid-row: 1; } }
 
 .sidebar-content-sidebar .sidebar-secondary {
   -ms-grid-column: 1;
   grid-column: 1; }
   @media only screen and (min-width: 64rem) {
     .sidebar-content-sidebar .sidebar-secondary {
-      -ms-grid-column: 2;
+      -ms-grid-column: 1;
       -ms-grid-row: 1;
-      grid-column: 2;
+      grid-column: 1;
       grid-row: 1; } }
 
-/* SETUP | LAYOUT | 262_SETUPBASIC_GRID | SSC - 2018-06-20 */
+/* SETUP | LAYOUT | 2611_SETUP_GRID | SSC - 2018-11-03 */
 @media only screen and (min-width: 64rem) {
   .sidebar-sidebar-content .site-inner {
-    -ms-grid-columns: 1fr minmax(0, 20rem) minmax(0, 68rem) 1fr;
-    grid-template-columns: 1fr minmax(0, 20rem) minmax(0, 68rem) 1fr; } }
+    -ms-grid-columns: 1fr minmax(0, 88rem) 1fr;
+    grid-template-columns: 1fr minmax(0, 88rem) 1fr; } }
 
 .sidebar-sidebar-content .content-sidebar-wrap {
   display: -ms-grid;
@@ -4529,28 +4549,20 @@ img.size-seveneights, .percent-seveneights {
   -ms-grid-rows: auto;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  -ms-grid-column: 1;
-  grid-column: 1; }
+  grid-template-rows: auto; }
   @media only screen and (min-width: 64rem) {
     .sidebar-sidebar-content .content-sidebar-wrap {
-      -ms-grid-columns: minmax(0, 20rem) minmax(0, 48rem);
-      grid-template-columns: minmax(0, 20rem) minmax(0, 48rem); } }
-  @media only screen and (min-width: 64rem) {
-    .sidebar-sidebar-content .content-sidebar-wrap {
-      -ms-grid-column: 3;
-      -ms-grid-row: 1;
-      grid-column: 3;
-      grid-row: 1; } }
+      -ms-grid-columns: minmax(0, 20rem) minmax(0, 20rem) minmax(0, 48rem);
+      grid-template-columns: minmax(0, 20rem) minmax(0, 20rem) minmax(0, 48rem); } }
 
 .sidebar-sidebar-content .content {
   -ms-grid-column: 1;
   grid-column: 1; }
   @media only screen and (min-width: 64rem) {
     .sidebar-sidebar-content .content {
-      -ms-grid-column: 2;
+      -ms-grid-column: 3;
       -ms-grid-row: 1;
-      grid-column: 2;
+      grid-column: 3;
       grid-row: 1; } }
 
 .sidebar-sidebar-content .sidebar-primary {
@@ -4558,9 +4570,9 @@ img.size-seveneights, .percent-seveneights {
   grid-column: 1; }
   @media only screen and (min-width: 64rem) {
     .sidebar-sidebar-content .sidebar-primary {
-      -ms-grid-column: 1;
+      -ms-grid-column: 2;
       -ms-grid-row: 1;
-      grid-column: 1;
+      grid-column: 2;
       grid-row: 1; } }
 
 .sidebar-sidebar-content .sidebar-secondary {
@@ -4568,9 +4580,9 @@ img.size-seveneights, .percent-seveneights {
   grid-column: 1; }
   @media only screen and (min-width: 64rem) {
     .sidebar-sidebar-content .sidebar-secondary {
-      -ms-grid-column: 2;
+      -ms-grid-column: 1;
       -ms-grid-row: 1;
-      grid-column: 2;
+      grid-column: 1;
       grid-row: 1; } }
 
 /* SETUP | LAYOUT | 263_SETUPBASIC_GRID | INNER-MAXWIDTH - 2018-09-24 */
@@ -4947,6 +4959,78 @@ img.size-seveneights, .percent-seveneights {
 .comment-respond textarea {
   width: 100%;
   box-sizing: border-box; }
+
+/* SETUP | GUIDE | 2611_SETUP | LABEL - 2018-10-21 */
+.guide-label.indent, .guide-line.indent, .guide-summary.indent, .guide-box.indent {
+  margin-left: 2rem; }
+
+.guide-label, .guide-label.end {
+  font-size: 0.75rem;
+  padding: 5px 10px;
+  color: white;
+  background-color: #e5565d;
+  display: inline-block; }
+
+.guide-label.sub {
+  background-color: #ef989d; }
+
+.guide-label.end {
+  float: right;
+  clear: both; }
+
+.guide-line {
+  border-top: 1px solid #e5565d; }
+
+.guide-summary {
+  font-size: 0.875rem;
+  padding: 5px 10px;
+  background-color: #eee;
+  border-left: 5px solid #e5565d; }
+
+.guide-summary.sub {
+  background-color: #f3f3f3;
+  border-left: 5px solid #ef989d; }
+
+.guide-box {
+  border-top: 1px solid #e5565d;
+  border-right: 1px solid #e5565d;
+  border-bottom: 1px solid #e5565d;
+  border-left: 1px solid #e5565d; }
+
+.guide-box.sub {
+  border-top: 1px solid #ef989d;
+  border-right: 1px solid #ef989d;
+  border-bottom: 1px solid #ef989d;
+  border-left: 1px solid #ef989d; }
+
+.guide-box.corner {
+  border-top: 1px solid #e5565d;
+  border-right: 0;
+  border-left: 1px solid #e5565d;
+  border-bottom: 0; }
+
+.guide-box.corner.sub {
+  border-top: 1px solid #ef989d;
+  border-left: 1px solid #ef989d; }
+
+.guide-box.vertical {
+  border-top: 1px solid #e5565d;
+  border-right: 0;
+  border-bottom: 1px solid #e5565d;
+  border-left: 0; }
+
+.guide-box.vertical.sub {
+  border-top: 1px solid #ef989d;
+  border-bottom: 1px solid #ef989d; }
+
+/* SETUP | GUIDE | 2611_SETUP | MOCK - 2018-10-21 */
+body .entry-title {
+  font-size: 1.125rem;
+  padding: 5px 10px;
+  color: white;
+  background-color: #e5565d;
+  display: block;
+  text-align: center; }
 
 /* BASE_230 | RESPONSIVE | 250_BASE | LAYOUT - 2017-06-06 */
 /* BASE_230 | RESPONSIVE | 230_BASE | FLOAT - 2016-07-13 */
