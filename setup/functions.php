@@ -1,6 +1,6 @@
 <?php
 /**
- * SETUP
+ * SETUP-BLOCKHEADER
  * This file adds functions to the SETUP Theme.
  *
  * @package SETUP
@@ -40,8 +40,8 @@ include_once( get_stylesheet_directory() . '/lib/woocommerce/woocommerce-output.
 include_once( get_stylesheet_directory() . '/lib/woocommerce/woocommerce-notice.php' );
 
 //* Child theme (do not remove)
-define( 'CHILD_THEME_NAME', 'SETUP' );
-define( 'CHILD_THEME_URL', 'https://setup.smartwebpackage.com' );
+define( 'CHILD_THEME_NAME', 'SETUP-BLOCKHEADER' );
+define( 'CHILD_THEME_URL', 'https://setup.smartwebpackage.com/block-header' );
 define( 'CHILD_THEME_VERSION', '2.6.1.1' );
 
 
